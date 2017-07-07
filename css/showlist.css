@@ -19,7 +19,8 @@
 	padding:0 10px; 
 	display: block;
 	color: #fff;
-	
+	width: 120px;
+    text-align: center;
 }
 .navList li:hover,.active{
 	background-color: #2393F3;
@@ -65,7 +66,7 @@
 /*移动端*/
 @media only screen and (max-width: 767px) {
 	.content{
-		padding-top:110px;
+		padding-top:200px;
 	}
 	.nav{
 		position:fixed;

@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>天边海洋馆</title>
+		<title>一带一路效果图库</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=11,IE=10,IE=9,IE=8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 		<link rel="shortcut icon" type="image/ico" href="./images/favicon.ico" />
@@ -15,29 +15,37 @@
 			<nav class="nav">
 				<ul class="navList clearfix">
 					<li class="active">
-						<a href="javascript:;" ui-sref="home">海底世界</a>
+						<a href="javascript:;" ui-sref="home">一带一路路线图</a>
 					</li>
 					<li>
-						<a href="javascript:;" ui-sref="rdyl">热带雨林</a>
+						<a href="javascript:;" ui-sref="zqcsxy">张骞出使西域</a>
 					</li>
 					<li>
-						<a href="javascript:;" ui-sref="zhx">中华鲟</a>
+						<a href="javascript:;" ui-sref="xtqjdxz">西天取经的玄奘</a>
 					</li>
 					<li>
-						<a href="javascript:;" ui-sref="shhy">珊瑚花园</a>
+						<a href="javascript:;" ui-sref="zjcs">昭君出塞</a>
 					</li>
 					<li>
-						<a href="javascript:;" ui-sref="smmj">水母秘境</a>
+						<a href="javascript:;" ui-sref="zhqxxy">郑和七下西洋</a>
 					</li>
 					<li>
-						<a href="javascript:;" ui-sref="symt">鲨鱼码头</a>
+						<a href="javascript:;" ui-sref="zobl">中欧班列</a>
 					</li>
 					<li>
-						<a href="javascript:;" ui-sref="mhht">梦幻海滩</a>
+						<a href="javascript:;" ui-sref="yth">亚投行</a>
 					</li>
-					
+					<li >
+						<a href="javascript:;" ui-sref="gdydyl">广东一带一路</a>
+					</li>
+					<li>
+						<a href="javascript:;" ui-sref="gxydyl">广西一带一路</a>
+					</li>
+					<li>
+						<a href="javascript:;" ui-sref="sxydyl">陕西一带一路</a>
+					</li>
 					<li class="br0">
-						<a href="javascript:;" ui-sref="jddw" class="pr0">极地动物</a>
+						<a href="javascript:;" ui-sref="zjydyl">浙江一带一路</a>
 					</li>
 				</ul>
 			</nav>
@@ -57,35 +65,47 @@
 	        $urlRouterProvider.otherwise('/home');
 	        $stateProvider.state('home', {
 	            url : '/home',
-	            templateUrl : './hdsj.html'
+	            templateUrl : './ydyllxt.html'
 	        })
-	        .state('rdyl', {
-	            url : '/rdyl',
-	            templateUrl : './rdyl.html'
+	        .state('zqcsxy', {
+	            url : '/zqcsxy',
+	            templateUrl : './zqcsxy.html'
 	        })
-	        .state('zhx', {
-	            url : '/zhx',
-	            templateUrl : './zhx.html'
+	        .state('xtqjdxz', {
+	            url : '/xtqjdxz',
+	            templateUrl : './xtqjdxz.html'
 	        })
-	        .state('shhy', {
-	            url : '/shhy',
-	            templateUrl : './shhy.html'
+	        .state('zjcs', {
+	            url : '/zjcs',
+	            templateUrl : './zjcs.html'
 	        })
-	        .state('smmj', {
-	            url : '/smmj',
-	            templateUrl : './smmj.html'
+	        .state('zhqxxy', {
+	            url : '/zhqxxy',
+	            templateUrl : './zhqxxy.html'
 	        })
-	        .state('symt', {
-	            url : '/symt',
-	            templateUrl : './symt.html'
+	        .state('zobl', {
+	            url : '/zobl',
+	            templateUrl : './zobl.html'
 	        })
-	        .state('mhht', {
-	            url : '/mhht',
-	            templateUrl : './mhht.html'
+	        .state('yth', {
+	            url : '/yth',
+	            templateUrl : './yth.html'
 	        })
-	        .state('jddw', {
-	            url : '/jddw',
-	            templateUrl : './jddw.html'
+	        .state('gdydyl', {
+	            url : '/gdydyl',
+	            templateUrl : './gdydyl.html'
+	        })
+	        .state('gxydyl', {
+	            url : '/gxydyl',
+	            templateUrl : './gxydyl.html'
+	        })
+	        .state('sxydyl', {
+	            url : '/sxydyl',
+	            templateUrl : './sxydyl.html'
+	        })
+	        .state('zjydyl', {
+	            url : '/zjydyl',
+	            templateUrl : './zjydyl.html'
 	        })
 	    }]);
 		app.controller('myCtr',['$scope'],function($scope){

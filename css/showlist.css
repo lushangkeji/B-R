@@ -52,6 +52,7 @@
 .showList li img{
 	vertical-align:middle;
 	width: 99%;
+	max-height: 80%;
 	/*display: block;*/
 	border: 0;
 	margin-bottom: 10px;

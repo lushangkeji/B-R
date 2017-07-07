@@ -16,10 +16,10 @@
 }
 .navList .br0{border-right:0 ;}
 .navList a{
-	padding:0 10px; 
+	padding:0 6px; 
 	display: block;
 	color: #fff;
-	width: 120px;
+	/*width: 120px;*/
     text-align: center;
 }
 .navList li:hover,.active{
@@ -67,7 +67,7 @@
 /*移动端*/
 @media only screen and (max-width: 767px) {
 	.content{
-		padding-top:200px;
+		padding-top:140px;
 	}
 	.nav{
 		position:fixed;
